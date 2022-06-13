@@ -7,3 +7,21 @@ h1{
 	background-color: #8fbc8f;
 
 }
+
+a:link{color:inherit}
+a:active{color:inherit}
+a:visited{color:inherit}
+a:hover{color:inherit}
+
+.container{
+	background-color: #100c08;
+}
+
+.column{
+	display: flex;
+	color: #f4f4f9;
+
+.column > h2 {
+	color: #8fbc8f;
+	text-align: center;
+}
