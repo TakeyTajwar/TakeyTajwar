@@ -1,5 +1,6 @@
 body{
-	background-color: #e9ffdb;
+	color: #100c08;
+	background-color: #043927;
 }
 
 h1{
@@ -56,4 +57,6 @@ a:hover{color:inherit}
 
 #info {
 	width: 75%;
+	background-color: #100c08;
+	font-family: Georgia, serif;
 }
