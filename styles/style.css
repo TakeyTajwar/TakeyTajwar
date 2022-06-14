@@ -14,14 +14,33 @@ a:visited{color:inherit}
 a:hover{color:inherit}
 
 .container{
-	background-color: #100c08;
+	display: flex;
+	background-color: #8fbc8f;
 }
 
 .column{
-	display: flex;
 	color: #f4f4f9;
 
-.column > h2 {
-	color: #8fbc8f;
+}
+
+.column>ul>li {
+	background-color: #100c08;
+	margin: 4px;
+	padding: 4px;
+
+	-webkit-transition: font-size .5s ease;
+	-moz-transition: font-size .5s ease;
+	-o-transition: font-size .5s ease;
+	transition: font-size .5s ease;
+
+}
+
+.column>ul>li:hover {
+	font-size: 1.5em;
+}
+
+.text {
 	text-align: center;
+	color: #34632c;
+	font-size: 2em;
 }
