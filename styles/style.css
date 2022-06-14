@@ -15,16 +15,20 @@ a:hover{color:inherit}
 
 .container{
 	display: flex;
-	background-color: #8fbc8f;
 }
 
 .column{
 	color: #f4f4f9;
+	justify-content: space-between;
+	margin: 2px;
+	padding: 2px;
+	background-color: #8fbc8f;
 
 }
 
 .column>ul>li {
 	background-color: #100c08;
+	font-size: 1.25em;
 	margin: 4px;
 	padding: 4px;
 
@@ -43,4 +47,13 @@ a:hover{color:inherit}
 	text-align: center;
 	color: #34632c;
 	font-size: 2em;
+}
+
+
+#links {
+	width: 25%;
+}
+
+#info {
+	width: 75%;
 }
