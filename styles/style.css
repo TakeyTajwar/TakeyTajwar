@@ -16,6 +16,13 @@ a:hover{color:inherit}
 
 .container{
 	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 480px){
+	.container{
+		flex-direction: column;
+	}
 }
 
 .column{
@@ -27,7 +34,7 @@ a:hover{color:inherit}
 
 }
 
-.column>ul>li {
+li{
 	background-color: #100c08;
 	font-size: 1.25em;
 	margin: 4px;
@@ -40,7 +47,7 @@ a:hover{color:inherit}
 
 }
 
-.column>ul>li:hover {
+li:hover {
 	font-size: 1.5em;
 }
 
@@ -60,3 +67,10 @@ a:hover{color:inherit}
 	background-color: #100c08;
 	font-family: Georgia, serif;
 }
+
+@media screen and (max-width: 480px){
+	.column{
+		width: 100%;
+	}
+}
+
